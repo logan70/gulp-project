@@ -19,3 +19,13 @@ body{
 	height: 310px;
 	background: url("../img/ad4.jpg") left top no-repeat;
 }
+
+.box{
+	transform: translate(10px,10px);
+	transition: all 1s;
+	border-radius: 50%;
+	box-shadow: 2px 2px 5px #000;
+	color: #000;
+	font-size: 14px;
+
+}
