@@ -1,0 +1,21 @@
+@import "variables";
+@import "mixins";
+
+body{
+	background-color: #fff;
+}
+
+.banner-1{
+	background: url("../img/ad2.jpg") left top no-repeat;
+	height: 310px;
+}
+
+.banner-2{
+	height: 310px;
+	background: url("../img/ad3.jpg") left top no-repeat;
+}
+
+.banner-3{
+	height: 310px;
+	background: url("../img/ad4.jpg") left top no-repeat;
+}
