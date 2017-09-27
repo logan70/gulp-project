@@ -1,11 +1,114 @@
 @@include('build/header.html')
  
-<div class="wrap">内容</div>
-<div class="banner">
-	<div class="banner-1"></div>
-	<div class="banner-2"></div>
-	<div class="banner-3"></div>
-</div>
+<header class="header">
+	<div class="header__logo"></div>
+	<div class="header__searchbox">
+		<input type="text" class="header__search">
+		<div class="header__search-icon"></div>
+		<a href="" class="header__login">登录</a>
+	</div>
+</header>
+<section class="main-sec clearfix">
+
+	<div class="sidebar">
+
+		<div class="sidebar__user">
+			<div class="user__circle--sm">
+			</div>
+			<div class="user__circle--lg">	
+			</div>
+			Logan
+		</div>
+
+		<div class="sidebar__info">
+			<a href="" class="sidebar__collection">110<br />收藏</a>
+			<a href="" class="sidebar__fans">313<br />粉丝</a>
+		</div>
+
+		<ul class="sidebar__list">
+			<li class="sidebar__list__item--active">个人报表
+				<ul class="sublist">
+					<li class="sublist__item">文件一</li>
+					<li class="sublist__item--active">文件二
+						<ul class="sunlist">
+							<li class="sunlist__item">文档1</li>
+							<li class="sunlist__item--active">文档2</li>
+						</ul>
+					</li>
+					<li class="sublist__item">文件三</li>
+				</ul>
+			</li>
+			<li class="sidebar__list__item">个人收藏</li>
+			<li class="sidebar__list__item">我的分享</li>
+			<li class="sidebar__list__item">我的图库</li>
+			<li class="sidebar__list__item">成长记录</li>
+			<li class="sidebar__list__item">账户信息</li>
+		</ul>
+
+	</div>
+
+	<div class="main">
+
+		<div class="main__header">
+			<p><a href="">Logan</a><i class="m10">/</i><a href="">个人报表</a><i class="m10">/</i><a href="">文件一</a><i class="m10">/</i><span>文档一</span></p>
+		</div>
+
+		<div class="main__wrap">
+			
+			<div class="main__select clearfix">
+				<div class="select__item">
+					<label for="search" class="select__label">查询项</label>
+					<select name="search" id="" class="select__box--sm">
+						<option value="1">第一项</option>
+						<option value="2">第二项</option>
+					</select>
+				</div>
+				<div class="select__item">
+					<label for="buy" class="select__label">买方</label>
+					<select name="buy" id="" class="select__box--bg">
+						<option value="1">小A</option>
+						<option value="2">小B</option>
+					</select>
+				</div>
+				<div class="select__item">
+					<label for="date" class="select__label">日期</label>
+					<input name="date" type="date" class="select__box--bg" value="2017-09-27"></input>
+				</div>
+				<div class="select__item">
+					<label for="usetime" class="select__label">总耗时</label>
+					<select name="usetime" id="" class="select__box--sm">
+						<option value="1">8天</option>
+						<option value="2">9天</option>
+					</select>
+				</div>
+				<div class="select__item">
+					<label for="sale" class="select__label">卖方</label>
+					<select name="sale" id="" class="select__box--bg">
+						<option value="1">小C</option>
+						<option value="2">小D</option>
+					</select>
+				</div>
+				<div class="select__item">
+					<label for="people" class="select__label">人数</label>
+					<select name="people" id="" class="select__box--sm">
+						<option value="1">10人</option>
+						<option value="2">11人</option>
+					</select>
+				</div>
+				<div class="select__item">
+					<label for="deal" class="select__label">成交项</label>
+					<select name="deal" id="" class="select__box--bg">
+						<option value="1">10项</option>
+						<option value="2">11项</option>
+					</select>
+				</div>
+				<a href="" class="select__btn">搜索</a>
+			</div>
+
+		</div>
+
+	</div>
+</section>
 
  
 @@include('build/footer.html')
