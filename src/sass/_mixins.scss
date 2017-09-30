@@ -2,3 +2,12 @@
 	background-color: #FFF;
 	border: 1px solid #dddfe1;
 }
+
+@mixin price($width:110px,$mgr:4px){
+	width: $width;
+	height: 64px;
+	background-color: #fff;
+	border: 1px solid #dddfe1;
+	margin-right: $mgr;
+	float:left;
+}

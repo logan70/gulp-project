@@ -248,3 +248,143 @@ body {
   top: 50%;
   margin-top: -13px;
 }
+
+.main__price {
+  margin-top: 10px;
+  height: 66px;
+}
+.price__prev,
+.price__next {
+  width: 30px;
+  height: 64px;
+  background-color: #fff;
+  border: 1px solid #dddfe1;
+  margin-right: 4px;
+  float: left;
+  line-height: 64px;
+  font-size: 30px;
+  color: #dddfe1;
+  text-align: center;
+  cursor: pointer;
+}
+
+.price__item {
+  width: 110px;
+  height: 64px;
+  background-color: #fff;
+  border: 1px solid #dddfe1;
+  margin-right: 4px;
+  float: left;
+}
+
+.price__item__box {
+  width: 100%;
+  height: 61px;
+  border-top: 3px solid transparent;
+  cursor: pointer;
+}
+.price__item__box:hover {
+  border-color: #4388c8;
+}
+.price__item__box--active {
+  border-color: #4388c8;
+}
+.price__item__box p {
+  font-size: 12px;
+  text-align: center;
+  line-height: 32px;
+}
+.price__item__box a {
+  color: #ec6500;
+  text-align: center;
+  display: block;
+}
+.price__item__box a span {
+  font-size: 12px;
+  color: #999;
+}
+
+.price__history {
+  width: 122px;
+  height: 64px;
+  background-color: #fff;
+  border: 1px solid #dddfe1;
+  margin-right: 4px;
+  float: left;
+  margin-right: 0;
+}
+.price__history a {
+  color: #000;
+  display: block;
+  font-size: 12px;
+  height: 61px;
+  border-top: 3px solid transparent;
+  line-height: 61px;
+  background: url("../img/history.png") 19px 15px no-repeat;
+  text-indent: 60px;
+}
+.price__history a:hover {
+  border-color: #4388c8;
+}
+
+.main__total {
+  margin-top: 14px;
+  height: 96px;
+}
+.total__title {
+  line-height: 24px;
+  font-size: 12px;
+}
+
+.total__item {
+  width: 200px;
+  height: 64px;
+  background-color: #fff;
+  border: 1px solid #dddfe1;
+  margin-right: 28px;
+  float: left;
+  height: 70px;
+  position: relative;
+}
+.total__item:last-of-type {
+  margin-right: 0;
+}
+.total__item--1 {
+  background-color: #43b29e;
+}
+.total__item--2 {
+  background-color: #388ac1;
+}
+.total__item--3 {
+  background-color: #d04a36;
+}
+.total__item--4 {
+  background-color: #e2cd46;
+}
+.total__item--block {
+  width: 60px;
+  height: 46px;
+  position: absolute;
+  right: 16px;
+  top: 12px;
+}
+.total__item--line {
+  width: 3px;
+  height: 70px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.total__item--num {
+  font-size: 10px;
+  margin-top: 10px;
+  line-height: 30px;
+  text-indent: 20px;
+}
+
+.total__item--deal {
+  font-size: 10px;
+  color: #aaa;
+  text-indent: 20px;
+}
